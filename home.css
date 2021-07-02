@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+:root {
+    --back: #2C423F;
+    --back-box: #4C5B61;
+    --front-box: #829191;
+    --good-gray: #C5C5C5;
+}
+
+* {
+    position: absolute;
+    font-family: Inconsolata;
+    color: white;
+    background: var(--back);
+}
+
+strong {
+    background: transparent;
+}
+
+.site-name-and-logo {
+    top: 20px;
+    left: 20px;
+
+    width: 507px;
+    height: 200px;
+
+    background: var(--back-box);
+}
+
+.site-name {
+    top: -40px;
+    left: 212px;
+    
+    width: 285px;
+    height: 180px;
+
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    background: var(--front-box);
+}
+
+.logo {
+    top: 10px;
+    left: 10px;
+
+    width: 180px;
+    height: 180px;
+
+    background: var(--front-box);
+}
+
+.info-bar {
+    top: 20px;
+    left: 547px;
+
+    width: 858px;
+    height: 420px;
+
+    background: var(--back-box);
+}
+
+.info-bar h2 {
+    top: -18px;
+    left: 20px;
+
+    width: 807px;
+    height: 52px;
+
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 47px;
+    padding-left: 10px;
+
+    background: var(--front-box);
+}
+
+.info-bar p {
+    top: 60px;
+    left: 20px;
+
+    width: 807px;
+    height: 305px;
+
+    font-size: 32px;
+    line-height: 33px;
+    padding-top: 5px;
+    padding-left: 10px;
+
+    background: var(--front-box);
+}
+
+.nav-menu {
+    top: 240px;
+    left: 20px;
+
+    width: 507px;
+    height: 200px;
+
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 33px;
+    text-align: center;
+
+    background: var(--back-box);
+}
+
+.nav-menu a {
+    padding-top: 15px;
+    background: var(--front-box);
+}
+
+.nav-menu .top-btn {
+    top: -15px;
+
+    width: 135px;
+    height: 57px;
+}
+
+.nav-menu .bottom-btn {
+    top: 73px;
+
+    width: 220px;
+    height: 57px;
+
+    font-size: 42px;
+}
+
+.home-btn {
+    left: 20px;
+    color: darkturquoise;
+}
+
+.posts-btn {
+    left: 185px;
+}
+
+.links-btn {
+    left: 350px;
+}
+
+.projects-btn {
+    left: 20px;
+}
+
+.about-me-btn {
+    left: 265px;
+}
+
+.div-bar {
+    top: 458px;
+    left: 20px;
+
+    width: 1385px;
+    height: 28px;
+
+    background: #00AE32;
+}
+
+.highlight-panels .panel {
+    top: 490px;
+
+    width: 450px;
+    height: 515px;
+
+    background: var(--back-box);
+}
+
+.highlight-panels img {
+    top: 25px;
+    left: 25px;
+
+    width: 400px;
+    height: 225px;
+
+    background: var(--good-gray);
+}
+
+.highlight-panels iframe {
+    top: 25px;
+    left: 25px;
+
+    width: 400px;
+    height: 225px;
+
+    background: var(--good-gray);
+}
+
+.highlight-panels p {
+    top: 245px;
+    left: 25px;
+
+    width: 392px;
+    height: 210px;
+
+    font-size: 25px;
+    line-height: 26px;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+
+    background: var(--front-box);
+}
+
+.panel1 {
+    left: 20px;
+}
+
+.panel2 {
+    left: 487px;
+}
+
+.panel3 {
+    left: 955px;
+}
+
+.bottom-space {
+    top: 1030px;
+    opacity: 0;
+}
